@@ -1,0 +1,29 @@
+###
+GET http://localhost:80/task/expired_invoices
+
+###
+GET http://localhost:80/task/wrong_date_invoices
+
+###
+GET http://localhost:80/task/customers_without_orders
+
+###
+GET http://localhost:80/task/overpaid_invoices
+
+###
+GET http://localhost:80/task/customers_last_order
+
+###
+GET http://localhost:80/task/high_demand_products
+
+###
+GET http://localhost:80/task/orders_without_details
+
+###
+GET http://localhost:80/task/bulk_products
+
+###
+GET http://localhost:80/task/number_of_products_in_year
+
+###
+GET http://localhost:80/task/orders_without_invoices

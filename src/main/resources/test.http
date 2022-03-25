@@ -1,0 +1,137 @@
+###
+POST http://localhost:80/category
+Content-Type: application/json
+
+{
+  "name": "Phones"
+}
+
+###
+GET http://localhost:80/category
+
+
+###
+GET http://localhost:80/category/1
+
+###
+PUT http://localhost:80/category/1
+Content-Type: application/json
+
+{
+  "name": "Cards"
+}
+
+###
+DELETE http://localhost:80/category/2
+
+
+###
+POST http://localhost:80/customer
+Content-Type: application/json
+
+{
+  "name": "Leo",
+  "country": "ARG",
+  "address": "Buenos",
+  "phone": "009009"
+}
+
+
+###
+GET http://localhost:80/customer
+
+###
+GET http://localhost:80/customer/1
+
+
+###
+PUT http://localhost:80/customer/1
+Content-Type: application/json
+
+{
+  "name": "Leonel",
+  "country": "BRA",
+  "address": "Buenos",
+  "phone": "009009"
+}
+
+###
+DELETE http://localhost:80/customer/1
+
+###
+POST http://localhost:80/product
+Content-Type: application/json
+
+{
+  "name": "Visa Card",
+  "category_id": 2,
+  "price": 40,
+  "description": "Lorem ipsum"
+}
+###
+GET http://localhost:80/product
+
+###
+PUT http://localhost:80/product/1
+Content-Type: application/json
+
+{
+  "name": "Master Card",
+  "category_id": 1,
+  "price": 40,
+  "description": "Lorem ipsum"
+}
+
+###
+DELETE http://localhost:80/product/2
+
+###
+POST http://localhost:80/order
+Content-Type: application/json
+
+{
+  "customer_id": 1,
+  "details": [
+    {
+      "product_id": 2,
+      "quantity": 10
+    },
+    {
+      "product_id": 1,
+      "quantity": 2
+    }
+  ]
+}
+
+###
+DELETE http://localhost:80/order/1
+
+###
+GET http://localhost:80/order
+
+###
+POST http://localhost:80/payment
+Content-Type: application/json
+
+{
+  "amount": 150,
+  "invoice_id": 4
+}
+
+###
+GET http://localhost:80/payment/1
+
+###
+DELETE http://localhost:80/payment/1
+
+###
+GET http://localhost:80/category/product_id/1
+
+###
+GET http://localhost:80/product/details/3
+
+###
+GET http://localhost:80/order/details/1
+
+###
+GET http://localhost:80/payment/detail/2
