@@ -3,8 +3,6 @@ package com.example.apelsinapp.controller;
 import com.example.apelsinapp.dto.ApiResponse;
 import com.example.apelsinapp.dto.ProductDTO;
 import com.example.apelsinapp.entity.Product;
-import com.example.apelsinapp.entity.Customer;
-import com.example.apelsinapp.entity.Product;
 import com.example.apelsinapp.repository.ProductRepository;
 import com.example.apelsinapp.service.ProductService;
 import lombok.RequiredArgsConstructor;

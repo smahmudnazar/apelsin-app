@@ -2,8 +2,6 @@ package com.example.apelsinapp.controller;
 
 import com.example.apelsinapp.dto.ApiResponse;
 import com.example.apelsinapp.dto.PaymentDTO;
-import com.example.apelsinapp.entity.Customer;
-import com.example.apelsinapp.entity.Payment;
 import com.example.apelsinapp.entity.Payment;
 import com.example.apelsinapp.repository.PaymentRepository;
 import com.example.apelsinapp.service.PaymentService;

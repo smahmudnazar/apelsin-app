@@ -12,4 +12,5 @@ public class DetailDTO {
     private Integer product_id;
     private Integer quantity;
 
+
 }
